@@ -162,16 +162,7 @@ h1, h2 {
   color: #271f23;
 }
 
-.intro h1 {
-  font-size: 2.2rem;
-}
-
-.intro p {
-  font-size: 1.2rem;
-}
-
 .intro a {
-  font-size: 1.2rem;
   color:  #271f23;
   font-weight:600;
 }
@@ -199,7 +190,7 @@ h1, h2 {
 }
 
 .featured {
-  padding-top: 50px;
+  padding-top: 125px;
 }
 
 .select {
@@ -369,110 +360,140 @@ h1, h2 {
 
 /* media query */
 
-@media (min-width: 768px) {
-  .intro {
+
+/* ipad */
+
+@media (min-width: 760px)  { 
+
+    .intro {
+      height:80vh;
+    }
+
+    .intro .canvas-basic {
+      height:80vh
+    }
+  
+    .intro h1 {
+      font-size:3rem;
+    }
+
+    .intro p, .intro a {
+      font-size:1.4rem;
+    }
+  
+    .computer img {
+      height: 400px;
+      width: 400px;
+    }
+  
+    .featured {
+      padding-top:180px;
+    }
+
+    .heading {
+      font-size: 2.4rem;
+    }
+
+}
+
+
+/*laptop*/ 
+
+@media (min-width: 1200px) { 
+
+    .intro {
+      height:80vh;
+    }
+  
+    .intro .canvas-basic {
+      height:80vh;
+    }
+  
+    .intro h1 {
+      font-size: 3.4rem;
+    }
+  
+    .intro p {
+      font-size: 1.5rem;
+    }
+  
+    .intro a {
+      font-size: 1.25rem;
+    }
+  
+    .computer img {
+      height:400px;
+      width:400px;
+    }
+  
+    .featured {
+      padding-top:200px;
+    }
+  
+    .heading {
+      font-size: 3rem;
+    }
+  
+    .select h3 {
+      font-size: 2rem;
+    }
+  
+    .select p {
+      font-size: 1.2rem;
+    }
+  
+    nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active , .portfolio .nav-link {
+      font-size: 1.5rem;
+    }
+  
+  
+    .post .details {
+      padding-top: 1rem;
+    }
+  
+  
+    .post.container {
+      width:800px;
+      padding-bottom: 1rem;
+    }
+  
+    #startupframe {
+      width:400px;
+      height: 600px;
+    }
+  
+    #pinpointeframe {
+      height:450px;
+    }
+  
+    .fullpic {
+      width:100%;
+    }
+  
+    .about h1 {
+      text-align:left;
+    }
+  
+    .about img {
+      margin-top:2rem;
+    }
+  
+}
+
+@media (min-width: 1400px) {
+
+  .intro .canvas-basic {
     height:80vh;
-  }
-
-  .intro #canvas-basic {
-    height:80vh;
-  }
-
-  .intro h1 {
-    font-size:2.6rem;
-  }
-
-  .computer img {
-    height: 350px;
-    width: 350px;
   }
 
   .featured {
-    padding-top:100px;
+    padding-top:120px;
   }
 
+  
 }
 
-@media (min-width: 992px) {
 
-  .intro {
-    height:80vh;
-  }
-
-  .intro #canvas-basic {
-    height:60vh;
-  }
-
-  .intro h1 {
-    font-size: 3.4rem;
-  }
-
-  .intro p {
-    font-size: 1.5rem;
-  }
-
-  .intro a {
-    font-size: 1.25rem;
-  }
-
-  .computer img {
-    height:400px;
-    width:400px;
-  }
-
-  .featured {
-    padding-top:100px;
-  }
-
-  .heading {
-    font-size: 3rem;
-  }
-
-  .select h3 {
-    font-size: 2rem;
-  }
-
-  .select p {
-    font-size: 1.2rem;
-  }
-
-  nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active , .portfolio .nav-link {
-    font-size: 1.5rem;
-  }
-
-
-  .post .details {
-    padding-top: 1rem;
-  }
-
-
-  .post.container {
-    width:800px;
-    padding-bottom: 1rem;
-  }
-
-  #startupframe {
-    width:400px;
-    height: 600px;
-  }
-
-  #pinpointeframe {
-    height:450px;
-  }
-
-  .fullpic {
-    width:100%;
-  }
-
-  .about h1 {
-    text-align:left;
-  }
-
-  .about img {
-    margin-top:2rem;
-  }
-
-}
 
 /* ==========================================================================
    Helper classes
