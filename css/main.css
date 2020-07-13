@@ -498,6 +498,28 @@ h1, h2 {
   
 }
 
+@media (min-width: 1530px) {
+
+  .intro {
+    height:85vh;
+  }
+
+  .intro .canvas-basic {
+    height:85vh;
+  }
+
+  .featured {
+    padding-top:200px;
+  }
+
+  .computer img {
+    height:400px;
+    width:400px;
+  }
+
+  
+}
+
 
 
 /* ==========================================================================
