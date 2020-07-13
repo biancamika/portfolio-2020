@@ -402,11 +402,11 @@ h1, h2 {
 @media (min-width: 1200px) { 
 
     .intro {
-      height:80vh;
+      height:85vh;
     }
   
     .intro .canvas-basic {
-      height:80vh;
+      height:85vh;
     }
   
     .intro h1 {
@@ -488,6 +488,11 @@ h1, h2 {
 
   .featured {
     padding-top:120px;
+  }
+
+  .computer img {
+    height:450px;
+    width:450px;
   }
 
   
