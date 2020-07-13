@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Bianca Mikaila</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,21 +14,136 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
+  <link rel="shortcut icon" href="favicon.ico">
   <!-- Place favicon.ico in the root directory -->
 
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap/bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="index.html">Bianca Mikaila</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resume</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <div class="container intro">
+    <canvas class="canvas-basic"></canvas>
+    <div class="col-md-12">
+      <div class="row">
+        <h1>Bianca Aguilar is a Filipina visual designer and artist passionate about technology & humanity 🌐🌸</h1>
+        <p>Currently designing for a startup studio and Developh, a youth-led non-profit accelerating tech & innovation for social good.</p>
+        <a href="about.html"><p>Learn more →</p></a>
+      </div>
+      <div class="row">
+        <div class="computer mx-auto d-block">
+          <img class="mx-auto d-block" src="assets/Tatung-einstein-computer.png">
+        </div>
+      </div>
+    </div>
+  </div> 
+
+  <div class="container featured">
+    <h2 class="text-center heading">Selected Work ✨</h2>
+    <div class="container">
+      <div class="row select">
+        <div class="col-md-6">
+          <!--<a href="">-->
+            <img src="assets/covercause.png" class="img-fluid unfinished" alt="Responsive image">
+            <h3>Cause.ph</h3>
+            <p class="tag">Brand Identity & Collateral (2020)</p>
+            <p>A directory of student creators who are opening commissions/offering pro-bono services for the benefit of human rights movements, COVID relief, and #BLM. Case study in progress. </p>
+          <!--</a>--> 
+        </div>
+        <div class="col-md-6">
+          <!--<a href="lifelign.html">-->
+            <img src="assets/coverlifelign.png" class="img-fluid unfinished" alt="Responsive image">
+            <h3>Lifelign App</h3>
+            <p class="tag">UX/UI design (2020)</p>
+            <p>A schedule-centered app focused on three habits: food, exercise, and sleep. 2nd Runner-up of UX University 2020. Case study in progress.</p>
+          <!--</a>-->
+        </div>
+      </div>
+      <div class="row select">
+        <div class="col-md-6">
+          <a href="arete.html">
+            <img src="assets/coverarete.gif" class="img-fluid" alt="Responsive image">
+            <h3>Arete Connect</h3>
+            <p class="tag">Illustration (2020)</p>
+            <p>Illustrations for the online programs of Ateneo's creativity and innovation hub.</p>
+          </a> 
+        </div>
+        <div class="col-md-6">
+          <a href="tbc.html">
+            <img src="assets/covertbc.png" class="img-fluid" alt="Responsive image">
+            <h3>The Bumpy Career</h3>
+            <p class="tag">Web design (2020)</p>
+            <p>A schedule-centered app focused on three habits: food, exercise, and sleep.</p>
+          </a> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+  <footer class="footer">
+    <div class="container">
+      <div class="social text-left">
+        <a href="mailto:biancamvaguilar@gmail.com" class="fa fa-envelope"></a>
+        <a href="https://www.instagram.com/psdbianca" class="fa fa-instagram"></a>
+        <a href="https://www.twitter.com/biancamikaila" class="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/biancamikaila" class="fa fa-linkedin"></a>
+      </div>
+      <a href="#" class="float-right">Back to top</a>
+    </div>
+  </footer>
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/bootstrap/bootstrap.min.js"></script>
+  <!--gradient-->
+  <script src="js/granim.min.js"></script>
+  <script type="text/javascript">
+    /* Gradient */
+      var granimInstance = new Granim({
+      element: '.canvas-basic',
+      direction: '',
+      isPausedWhenNotInView: true,
+      states : {
+          "default-state": {
+              gradients: [
+                  ['#ff63a0','#ffd684'],
+                  ['#ffd684', '#7bc0f5'],
+              ]
+          }
+      }
+  });
+  </script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>

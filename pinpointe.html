@@ -1,0 +1,130 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bianca Mikaila: Pinpointe App Pitch</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="Pinpointe App Pitch">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mediaelementplayer.min.css">
+  <link rel="stylesheet" href="css/mediaelementplayer-legacy.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <canvas class="canvas-basic"></canvas>
+    <a class="navbar-brand" href="index.html">Bianca Mikaila</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resume</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container post">
+    <div class="row header">
+        <div class="col-md-12">
+            <h1>Pinpointe App Pitch</h1>
+            <h4 class="text-muted">Ideating a hypothetical app that helps ballet-based dancers correct their technique.</h4>
+        </div>
+    </div>
+    <div class="row details">
+        <div class="col-md-6">
+          <h5><span>Year</span></h5>
+          <h5 class="text-muted">2018</h5>
+        </div>
+        <div class="col-md-6">
+          <h5><span>Key Skills</span></h5>
+          <h5 class="text-muted">Ideation, Motion Graphics</h5>
+        </div>
+    </div>
+    <div class="row">
+      <img src="assets/pinpointe.gif" class="img-fluid fullpic" alt="Responsive image">
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <p>Pinpointe is a hypothetical app that assists ballet-based dancers in correcting their weaknesses in technique. Users first go through a test composed of simple, personalized questions. Once the app has centered on a problem, it recommends solutions (e.g. tutorials, workouts) from online sources.</p>
+            <p>This idea was born from my frustrations as a dance student. Jealous of the hyperflexible dancers on Instagram, I would stretch frequently. However, I’d overexert my hip flexors in the process. I had to be taught that strengthening was also crucial for improvement. Lack of knowledge = lack of body awareness.</p>
+            <iframe id="pinpointeframe" src="https://www.youtube.com/embed/EZwmT5467Pc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+  </div>
+   
+  <footer class="footer">
+    <div class="container">
+      <div class="social text-left">
+        <a href="mailto:biancamvaguilar@gmail.com" class="fa fa-envelope"></a>
+        <a href="https://www.instagram.com/psdbianca" class="fa fa-instagram"></a>
+        <a href="https://www.twitter.com/biancamikaila" class="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/biancamikaila" class="fa fa-linkedin"></a>
+      </div>
+      <a href="#" class="float-right">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap/bootstrap.min.js"></script>
+  <script src="js/mediaelement.min.js"></script>
+  <script src="js/mediaelement-and-player.min.js"></script>
+  <!--gradient-->
+  <script src="js/granim.min.js"></script>
+  <script type="text/javascript">
+    var granimInstance = new Granim({
+    element: '.canvas-basic',
+    direction: 'diagonal',
+    isPausedWhenNotInView: true,
+    states : {
+        "default-state": {
+            gradients: [
+                ['#ff63a0','#ffd684'],
+                ['#ffd684', '#7bc0f5'],
+            ]
+        }
+    }
+});
+  </script>
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
