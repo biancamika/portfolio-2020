@@ -407,11 +407,11 @@ h1, h2 {
 @media (min-width: 1200px) { 
 
     .intro {
-      height:85vh;
+      height:80vh;
     }
   
     .intro .canvas-basic {
-      height:85vh;
+      height:80vh;
     }
   
     .intro h1 {
@@ -425,14 +425,18 @@ h1, h2 {
     .intro a {
       font-size: 1.25rem;
     }
+
+    .computer {
+      top:0px;
+    }
   
     .computer img {
-      height:400px;
-      width:400px;
+      height:425px;
+      width:425px;
     }
   
     .featured {
-      padding-top:200px;
+      padding-top:225px;
     }
   
     .heading {
@@ -495,6 +499,10 @@ h1, h2 {
     padding-top:120px;
   }
 
+  .computer {
+    top:0px;
+  }
+
   .computer img {
     height:450px;
     width:450px;
@@ -515,6 +523,10 @@ h1, h2 {
 
   .featured {
     padding-top:200px;
+  }
+
+  .computer {
+    top:0px;
   }
 
   .computer img {
