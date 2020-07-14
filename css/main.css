@@ -381,13 +381,17 @@ h1, h2 {
       font-size:1.4rem;
     }
   
+    .computer {
+      top:100px;
+    }
+
     .computer img {
       height: 400px;
       width: 400px;
     }
   
     .featured {
-      padding-top:180px;
+      padding-top:150px;
     }
 
     .heading {
@@ -395,6 +399,7 @@ h1, h2 {
     }
 
 }
+
 
 
 /*laptop*/ 
