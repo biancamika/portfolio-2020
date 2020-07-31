@@ -174,11 +174,12 @@ h1, h2 {
 .computer {
   z-index:1;
   position:relative;
+  top:50px;
 }
 
 .computer img {
-  height:300px;
-  width:300px;
+  height:350px;
+  width:350px;
 }
 
 .featured h2 {
@@ -267,6 +268,10 @@ h1, h2 {
 
 .about h3 {
   font-weight:bold;
+}
+
+.about img {
+  margin-top: 1.5rem;
 }
 
 /* PORTFOLIO */
@@ -404,7 +409,7 @@ h1, h2 {
     }
   
     .computer {
-      top:100px;
+      top:0px;
     }
 
     .computer img {
@@ -441,7 +446,7 @@ h1, h2 {
   }
 
   .computer {
-    top:-10px;
+    top:0px;
   }
 
   .featured {
@@ -577,12 +582,12 @@ h1, h2 {
   }
 
   .computer {
-    top:0px;
+    top:80px;
   }
 
   .computer img {
-    height:400px;
-    width:400px;
+    height:450px;
+    width:450px;
   }
 
   
