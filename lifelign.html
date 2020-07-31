@@ -14,6 +14,7 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
+  <link rel="shortcut icon" href="favicon.ico">
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
@@ -52,24 +53,24 @@
   </nav>
 
   <div class="container post">
-    <!--
-      <div class="row">
-    <img src="assets/codecademy-cover.png" class="img-fluid" alt="Responsive image">
-    <div class="container">
-      <h1 class="text-center">Lifelign App</h1>
-      <h4 class="text-muted">Lorem ipsum dolor set.</h4>
-      <p>Lorem ipsum dolor set.</p>
-    </div>
-    </div>
-    -->
-    <div class="row">
-      <div class="col-md-6">
+    <div class="row header">
+      <div class="col-md-12">
         <h1>Lifelign App</h1>
         <h4 class="text-muted">A habit tracking app that helps you commit to eating, exercising, and sleeping well. 2nd Place Runner-up at UX University 2020.</h4>
       </div>
-      <div class="col-md-6">
-        <p><span>Duration:</span> 4 weeks</p>
-        <p><span>Key Skills:</span> Ideation, Interviews, User Stories, Journey Maps, Wireframing, Visual Design, Prototyping</p>
+    </div>
+    <div class="row details">
+      <div class="col-md-4">
+        <h5><span>Year</span></h5>
+          <h5 class="text-muted">2020</h5>
+      </div>
+      <div class="col-md-4">
+        <h5><span>Role</span></h5>
+          <h5 class="text-muted">Product Researcher and Designer</h5>
+      </div>
+      <div class="col-md-4">
+        <h5><span>Role</span></h5>
+          <h5 class="text-muted">Ideation, Interviews, User Stories, Journey Maps, Wireframing, Visual Design, Prototyping</h5>
       </div>
     </div>
     <div class="row">
@@ -78,11 +79,19 @@
     <div class="row">
       <div class="col-md-12">
         <h2>Context</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
         <h3>Problem</h3>
         <p>Quarantine has drastically upended people's sense of time. Because of this, they struggle to maintain healthy habits.</p>
+      </div>
+      <div class="col-md-4">
         <h3>Brief</h3>
         <p>Lifelign is a habit tracker app centered on three core needs: food, exercise, and sleep. It is designed as both a schedule where people can time block their habits, and a journal where they can reflect on their progress.</p>
         <p>Overall, these features were made to help enhance mindfulness and well-being.</p>
+      </div>
+      <div class="col-md-4">
         <h3>Target</h3>
         <p>Lifelign was designed for Gen Z and Millenials who desire to have healthy habits, but struggle with the motivation and discipline needed to sustain them.</p>
       </div>
@@ -91,15 +100,31 @@
       <div class="col-md-12">
         <h2>Research</h2>
         <h3>Interviews</h3>
-        <p>Two interviews were conducted with college freshmen, and additionally an early career architect. All were at varying levels of fitness.</p>
+        <p>Interviews were conducted with college freshmen and an early career architect. All were at varying levels of fitness. I asked them about how they keep fit through exercise and other activities, other ways they stayed healthy, and how their lifestyle was affected by quarantine. I gained the following insights:</p>
         <h4 class="text-muted">Routines are Crucial</h4>
+        <p>Contrary to my assumptions, most of my interviewees were actually exercising more during quarantine. This was due to them making time for it in their schedules.</p>
         <h4 class="text-muted">People are Influential</h4>
+        <p>To get critique or support, the interviewees would show pictures of themselves to friends and family. They also helped keep the interviewees' fitness accountable (e.g. group workout calls).</p>
         <h4 class="text-muted">Habits are Interdependent</h4>
-        <p>Two interviews were conducted with college freshmen, and additionally an early career architect. All were at varying levels of fitness.</p>
+        <p>The way the participants ate and slept affected their energy during exercise, and vice versa.</p>
+        <h3>Pain Points</h3>
+        <p>The last insight made me realize that tackling other habits were needed as well. Thus, I decided to make my case study a tracker for healthy habits. I then determined the following:</p>
         <h4 class="text-muted">Time Management</h4>
+        <p>The interviewees who were exercising more during quarantine said this was because they finally had the time they didn't have in the past. But could this habit become sustainable? What would happen when their daily commitments returned?</p>
         <h4 class="text-muted">Tracking is Tedious</h4>
+        <p>Everyone wasn't big tracking. Most of them tried standard apps like MyFitnessPal, and eventually abandoned them; two of them also used considerably inefficient methods (i.e. writing on Notes, leaving tabs open) for saving workouts they liked.</p>
         <h4 class="text-muted">Lack of Mindfulness</h4>
-        <h3>Goals</h3>
+        <p>Everyone also struggled with overeating at times; this was most likely affected by their lack of tracking.</p>
+        <h3>Job Stories</h3>
+        <h4 class="text-muted">When I commit to a healthy fitness/eating/sleep routine...</h4>
+        <p>
+          <ul>
+            <li>I want to receive reminders so that I won’t forget it.</li>
+            <li>I want to let others know about it so that they can keep me accountable.</li>
+            <li>I want to have a schedule for it so that I have a structure to guide me.</li>
+            <li>I want to track my progress so that I can see whether I’ve improved/regressed, and stay motivated.</li>
+          </ul>
+        </p>
         <h3>Personas</h3>
         <p>I created 3 personas that each lacked a specific healthy habit.</p>
         <img src="assets/Persona Slide 1.png" class="img-fluid" alt="Responsive image">
@@ -115,8 +140,14 @@
     <div class="row">
       <div class="col-md-12">
         <h2>Experience</h2>
-        <h3>Sketching</h3>
-        <h3>Wireframing</h3>
+        <h3>User Flow</h3>
+        <p>As a beginner, I initially came up with an ambitious user flow for the app's onboarding. However, while working on the app, I realized that this was impossible to prototype in Figma. Because of this, I made the app's entire user flow more realistic for my capabilities.</p>
+        <img src="assets/lifelignflows.png" class="img-fluid" alt="Responsive image">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h3>Sketches</h3>
         <img src="assets/lifelignwireframes.png" class="img-fluid" alt="Responsive image">
       </div>
     </div>
@@ -135,7 +166,7 @@
     </div>
     <div class="row">
       <div class="col-md-6">
-        <video src="assets/lifelign1.mp4" type="video/mp4" height="594px" width="446px" class="mejs__player" autoplay="true"></video>
+        <video src="assets/lifelign1.mp4"video/mp4" height="594px" width="446px" class="mejs__player" autoplay="true"></video>
       </div>
       <div class="col-md-6">
         <h3>Schedule Habits</h3>
