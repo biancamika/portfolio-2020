@@ -128,6 +128,10 @@ textarea {
   height:100vh;
 }
 
+p {
+  line-height:1.5;
+}
+
 .intro {
   height: 90vh;
   width:100%;
@@ -354,12 +358,30 @@ h1, h2 {
   width:100%;
 }
 
+.post i {
+  font-size:72px;
+  color:#95c940;
+}
+
+.post .svg {
+  width:60%;
+}
+
 #pinpointeframe {
   height:250px;
 }
 
 /* media query */
 
+/* phone */
+@media (max-width: 575.98px) {
+
+  .lifelign h3 {
+    
+    text-align:center;
+
+  }
+}
 
 /* ipad */
 
@@ -402,6 +424,10 @@ h1, h2 {
       margin-top: 6rem;
     }
 
+    .post .svg {
+      width:90%;
+    }
+
 }
 
 
@@ -420,6 +446,10 @@ h1, h2 {
 
   .featured {
     padding-top:225px;
+  }
+
+  .post.container {
+    width:750px;
   }
 
 }
@@ -477,14 +507,11 @@ h1, h2 {
       font-size: 1.5rem;
     }
   
-  
     .post .details {
       padding-top: 1rem;
     }
-  
 
     .post.container {
-      width:60%;
       padding-bottom: 1rem;
     }
   
