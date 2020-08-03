@@ -1223,7 +1223,4 @@ FileETag None
 #     RewriteRule ^(.+)\.(\w+)\.(bmp|css|cur|gif|ico|jpe?g|m?js|a?png|svgz?|webp|webmanifest)$ $1.$3 [L]
 # </IfModule>
 
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^biancamikaila.com [NC,OR]
-RewriteCond %{HTTP_HOST} ^www.biancamikaila.com [NC]
-RewriteRule ^(.*)$ https://bianca.digital/$1 [L,R=301,NC]
+redirect 301 /index.html http://www.bianca.digital/index.html 
